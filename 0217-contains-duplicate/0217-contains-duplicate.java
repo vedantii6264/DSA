@@ -1,13 +1,14 @@
+import java.util.HashSet;
 class Solution {
     public boolean containsDuplicate(int[] nums) {
-        HashMap<Integer, Integer> map = new HashMap <>();
-        for (int num : nums){
-            // Used for each loop 
-            if ( map.containsKey(num)){
-                return true;
-            }
-            map.put(num, 1); // Storing the value, (num_value, Frequency)
-        }
-        return false;
+       // Optimal Solution using HashSet
+      HashSet<Integer> set = new HashSet<>();
+      for (int num : nums) {
+          if (set.contains(num)) {
+              return true;
+          }
+          set.add(num);
+      }
+      return false;
     }
 }
