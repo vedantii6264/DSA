@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0079-word-search](https://github.com/vedantii6264/DSA/tree/master/0079-word-search) |
+| [2124-check-if-all-as-appears-before-all-bs](https://github.com/vedantii6264/DSA/tree/master/2124-check-if-all-as-appears-before-all-bs) |
 ## Backtracking
 |  |
 | ------- |
